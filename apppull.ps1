@@ -1,4 +1,5 @@
-$BaseDir = "C:\Users\Installers". ## edit directory
+## edit directory
+$BaseDir = "C:\Users\Installers"
 $CurrentDir = Join-Path $BaseDir "Current"
 $ArchiveDir = Join-Path $BaseDir "Archive"
 $LogFile = Join-Path $BaseDir "UpdateLog.txt"
