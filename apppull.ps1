@@ -9,44 +9,6 @@ $LogFile = Join-Path $BaseDir "UpdateLog.txt"
 # copy and paste list into AI to easily match the correct format 
 $Apps = @(
     @{ Id = "AppControl.AppControl"; Name = "AppControl" }
-    @{ Id = "Docker.DockerDesktop"; Name = "DockerDesktop" }
-    @{ Id = "REALiX.HWiNFO"; Name = "HWiNFO64" }
-    @{ Id = "Notepad++.Notepad++"; Name = "Notepad++" }
-    @{ Id = "Microsoft.Office"; Name = "Microsoft365" }
-    @{ Id = "Microsoft.OneDrive"; Name = "OneDrive" }
-    @{ Id = "Nextcloud.NextcloudDesktop"; Name = "Nextcloud" }
-    @{ Id = "PuTTY.PuTTY"; Name = "PuTTY" }
-    @{ Id = "OpenJS.NodeJS.LTS"; Name = "NodeJS-LTS" }
-    @{ Id = "Microsoft.VCRedist.2010.x64"; Name = "VC2010-x64" }
-    @{ Id = "Microsoft.VCRedist.2008.x64"; Name = "VC2008-x64" }
-    @{ Id = "RealVNC.VNCServer"; Name = "VNCServer" }
-    @{ Id = "GoLang.Go"; Name = "Go" }
-    @{ Id = "Oracle.JavaRuntimeEnvironment"; Name = "Java8" }
-    @{ Id = "Corsair.iCUE.5"; Name = "iCUE5" }
-    @{ Id = "Nvidia.PhysX"; Name = "PhysX" }
-    @{ Id = "RealVNC.VNCViewer"; Name = "VNCViewer" }
-    @{ Id = "Microsoft.VCRedist.2015+.x86"; Name = "VC2015-x86" }
-    @{ Id = "Microsoft.VCRedist.2015+.x64"; Name = "VC2015-x64" }
-    @{ Id = "Microsoft.VCRedist.2012.x86"; Name = "VC2012-x86" }
-    @{ Id = "Microsoft.VCRedist.2012.x64"; Name = "VC2012-x64" }
-    @{ Id = "Microsoft.VCRedist.2013.x86"; Name = "VC2013-x86" }
-    @{ Id = "Microsoft.VCRedist.2013.x64"; Name = "VC2013-x64" }
-    @{ Id = "Microsoft.VCRedist.2005.x86"; Name = "VC2005-x86" }
-    @{ Id = "Microsoft.VCRedist.2008.x86"; Name = "VC2008-x86" }
-    @{ Id = "Microsoft.VCRedist.2010.x86"; Name = "VC2010-x86" }
-    @{ Id = "Rustlang.Rustup"; Name = "Rustup" }
-    @{ Id = "Microsoft.VisualStudioCode"; Name = "VSCode-User" }
-    @{ Id = "Python.Python.3.14"; Name = "Python314" }
-    @{ Id = "Microsoft.AppInstaller"; Name = "AppInstaller" }
-    @{ Id = "Microsoft.VisualStudio.BuildTools"; Name = "VSBuildTools" }
-    @{ Id = "Microsoft.Edge"; Name = "Edge" }
-    @{ Id = "VideoLAN.VLC"; Name = "VLC" }
-    @{ Id = "WinSCP.WinSCP"; Name = "WinSCP" }
-    @{ Id = "Microsoft.DotNet.DesktopRuntime.5"; Name = "DotNetDesktopRuntime5" }
-    @{ Id = "Microsoft.WindowsSDK.10.0.26100"; Name = "WindowsSDK26100" }
-    @{ Id = "Microsoft.WindowsTerminal"; Name = "WindowsTerminal" }
-    @{ Id = "Microsoft.WSL"; Name = "WSL" }
-)
 
 function Show-InstallerBanner {
     $banner = @'
