@@ -5,6 +5,8 @@ $ArchiveDir = Join-Path $BaseDir "Archive"
 $LogFile = Join-Path $BaseDir "UpdateLog.txt"
 
 # Add the apps you want to track using their exact WinGet IDs
+//run '''winget list'''
+# copy and paste list into AI to easily match the correct format 
 $Apps = @(
     @{ Id = "AppControl.AppControl"; Name = "AppControl" }
     @{ Id = "Docker.DockerDesktop"; Name = "DockerDesktop" }
