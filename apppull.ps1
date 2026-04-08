@@ -1,4 +1,4 @@
-$BaseDir = "C:\Users\Fisdervedpi32\Downloads\Installers"
+$BaseDir = "C:\Users\Installers". ## edit directory
 $CurrentDir = Join-Path $BaseDir "Current"
 $ArchiveDir = Join-Path $BaseDir "Archive"
 $LogFile = Join-Path $BaseDir "UpdateLog.txt"
