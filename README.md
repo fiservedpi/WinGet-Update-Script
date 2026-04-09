@@ -22,7 +22,8 @@ Import-Module ps2exe
 
 ## Export to EXE
 ```powershell
-Invoke-PS2EXE .\InstallerVault.ps1 .\dist\InstallerVault.exe -noConsole -iconFile .\app_icon.ico
+Invoke-ps2exe -InputFile .\UpdateVault.ps1 -OutputFile .\UpdateVault.exe
+
 ```
 
 ## Optional build variations
