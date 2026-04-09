@@ -1,3 +1,4 @@
+<img width="1024" height="1024" alt="generated-image" src="https://github.com/user-attachments/assets/345a1393-6485-4a3d-adf4-ed9112b9ca3b" />
 # Installer Vault Release
 
 Installer Vault is a PowerShell-based Windows utility for managing app downloads with WinGet.
