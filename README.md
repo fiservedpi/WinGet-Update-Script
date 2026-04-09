@@ -22,7 +22,7 @@ Import-Module ps2exe
 
 ## Export to EXE
 ```powershell
-Invoke-ps2exe -InputFile .\UpdateVault.ps1 -OutputFile .\UpdateVault.exe
+Invoke-ps2exe -InputFile .\UpdateVaultv2.ps1 -OutputFile .\UpdateVault.exe
 
 ```
 
