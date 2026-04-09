@@ -42,6 +42,10 @@ ps2exe .\InstallerVault.ps1 .\dist\InstallerVault.exe -noConsole
 - `winget download` downloads the installer and supports a custom folder with `--download-directory`. [web:32]
 - Use exact package IDs when possible for cleaner downloads. [web:32]
 
+## Screenshots 
+- <img width="742" height="889" alt="uv1" src="https://github.com/user-attachments/assets/f3c791a1-f886-4e55-8c35-2e3842201604" />
+
+
 ## Release notes
 - This release is intended for Windows.
 - Build the EXE on Windows before distributing it.
